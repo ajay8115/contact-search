@@ -1,0 +1,106 @@
+
+*{
+    /* text-align: center; */
+
+    margin: 0px;
+    /* background-color: skyblue; */
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    /* border: 2px solid red; */
+    height: 100px;
+    background-image: linear-gradient(green, yellow);
+
+    position: relative;
+}
+.head h1{
+ 
+    position: absolute;
+    animation-duration: 10s;
+    padding-top: 20px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: myl;
+}
+@keyframes  myl{
+
+    from {left: 0%;}
+    to {left: 85%;}
+
+    
+}
+.container{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+
+}
+.left , .right{
+    /* border: 2px solid red;  */
+    width: 50%;
+    height: 550px;
+    /* text-align: center; */
+}
+.right h1{
+    margin: 20px;
+    text-align: center;
+
+}
+.left 
+{ 
+    margin-top: 34px;
+}
+#tx2 , #tx3 , #dele{
+     
+    height: 40px; 
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+} 
+.right input{
+     text-align: center;
+}
+#tx1{
+    border-radius: 20px;
+}
+
+.right button{
+    height: 30px; 
+    width: 80px;
+}
+
+#tx1{
+    height: 40px;
+    /* border: 2px solid red; */
+    width: 238px;
+    margin-top: 59px;
+    margin-left: 163px;
+}
+
+
+.left div para {
+
+    height: 50px;
+    font-size: 18px;
+    /* border: 1px solid red; */
+    width: 194px;
+    margin-left: 11px;
+    display: inline-block;
+    /* text-align: center; */
+    /* background-color: skyblue; */
+    padding: 6px;
+    
+}
+.left div img {
+    height: 30px;
+    margin-left: 163px;
+    margin-top: 2px;
+    /* background-color: skyblue; */
+    width: 30px;
+    background-repeat: no-repeat;
+}
+#child{
+    width: 400px;
+}
